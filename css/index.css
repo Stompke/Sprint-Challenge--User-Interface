@@ -69,6 +69,7 @@ p {
 .container {
     width: 800px;
     margin: 0 auto;
+
 }
 
 .top-content {
@@ -144,3 +145,203 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/***               SHAWN TOMPKE'S CSS CODE           ***/
+
+    .headerImageHome {
+        width: 100%;
+        padding: 30px 0px;
+    }
+
+/*** NAVIGATION - START ***/
+
+    nav {
+        display: flex;
+        padding: 20px 0px;
+        align-items: flex-end;
+    }
+    .mobileLinks {
+        visibility: hidden;
+        display: flex;
+        line-height: .3;
+    }
+
+    .logoContainer {
+        width: 20%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .links {
+        display: flex;
+        justify-content: space-evenly;
+        width: 80%;
+    }
+
+    .links a {
+        color: black;
+        text-decoration: none;
+    }
+
+    .links a:hover {
+        color: purple;
+        text-decoration: none;
+    }
+
+/* NAVIGATION - END */
+
+/*** MIDDLE CONTENT - START ***/
+
+    .middle-content .boxes .box:nth-child(1) {
+        background: teal;
+    }
+
+    .middle-content .boxes .box:nth-child(2) {
+        background: gold;
+    }
+
+    .middle-content .boxes .box:nth-child(3) {
+        background: cadetblue;
+    }
+
+    .middle-content .boxes .box:nth-child(4) {
+        background: coral;
+    }
+
+    .middle-content .boxes .box:nth-child(5) {
+        background: crimson;
+    }
+
+    .middle-content .boxes .box:nth-child(6) {
+        background: forestgreen;
+    }
+
+    .middle-content .boxes .box:nth-child(7) {
+        background: darkorchid;
+    }
+
+    .middle-content .boxes .box:nth-child(8) {
+        background: hotpink;
+    }
+
+    .middle-content .boxes .box:nth-child(9) {
+        background: indigo;
+    }
+
+    .middle-content .boxes .box:nth-child(10) {
+        background: dodgerblue;
+    }
+
+    .box:hover {
+        cursor: pointer;
+    }
+    .box:hover {
+        animation: example 2s linear 0s infinite normal;
+        position: relative;
+
+    }
+    @keyframes example {
+        0%   {color:red;}
+        25%  {color:yellow;}
+        50%  {color:blue;}
+        75%  {color:green;}
+        100% {color:red;}
+    }
+
+/* MIDDLE CONTENT - END */
+
+/****************  ABOUT PAGE CSS EDITS - START ******************/
+
+    .container .aboutPage {
+        display: flex;
+    }
+
+/*** ABOUT SECTION - START ***/
+
+    .about {
+        border-bottom: dashed black 1px;
+        padding: 0px 20px 20px 20px;
+    }    
+
+/* ABOUT SECTION - END */
+
+/*** GRID SECTION - START ***/
+
+    .gridSection {
+        display: flex;
+        flex-flow: row wrap;
+        padding-top: 20px;
+        justify-content: space-around;
+    }
+    .singleGridBox {
+        width: 47%;
+        border-bottom: 1px dashed black;
+        margin-bottom: 60px;
+    }
+    
+    .singleGridBox img {
+        width: 100%;
+    }
+    .gridSection h2 {
+        padding: 10px 0px;
+    }
+    .gridSection .learnMoreButton {
+        color: black;
+        padding: 10px 30px;
+        border: solid 2px black;
+        border-radius: 10px;    
+        display: inline-block;
+        margin: 20px 0px;
+    }
+    .gridSection .learnMoreButton:hover {
+        color: white;
+        background: purple;
+        border: 2px solid purple;
+        cursor: pointer;
+    }
+
+/* GRID SECTION - END */
+
+/*** WORK TOGETHER SECTION - START ***/
+
+    .workTogether {
+
+        padding: 0px 20px 40px 20px;
+    }
+
+/* WORK TOGETHER SECTION - END */
+
+
+@media only screen and (max-width: 840px) {
+    body {
+      background-color: lightblue;
+    }
+    .container {
+        width: 100%;
+        padding: 0px 10%;
+    }
+    .singleGridBox {
+        width: 100%;
+    }
+    footer nav {
+        justify-content: space-evenly;
+
+        width: 100%
+    }
+    .mobileLinks {
+        visibility: visible;
+        display: flex;
+    }
+    .mobileLinks:hover {
+        color: purple;
+        cursor: pointer;
+    }
+    .links {
+        visibility: hidden;
+    }
+  }
+
+
+
+
+/****************  ABOUT PAGE CSS EDITS - END ******************/
