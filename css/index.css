@@ -229,3 +229,18 @@ nav {
 
 
 /* MIDDLE CONTENT - END */
+
+/****************  ABOUT PAGE CSS EDITS - START ******************/
+
+/*** ABOUT SECTION - START ***/
+
+.about {
+    border-bottom: dashed black 1px;
+    padding: 0px 20px 20px 20px;
+}    
+
+/* ABOUT SECTION - END */
+
+
+
+/****************  ABOUT PAGE CSS EDITS - END ******************/
