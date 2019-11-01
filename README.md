@@ -34,7 +34,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
-    It is a 
+    Semantic HMTL is a decided on group of tags that web developers should use worldwide with their code. It helps everyone understand the code better because they are using the same terms.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
